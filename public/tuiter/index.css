@@ -61,7 +61,6 @@
     display: flex;
     flex-basis: auto;
     flex-direction: column;
-    max-width: 600px;
     margin: 0 16px 16px 16px;
 }
 
@@ -193,7 +192,6 @@
 
 .wd-verified {
     color: white;
-    font-size: 14px;
 }
 
 .wd-trending-spacer {
