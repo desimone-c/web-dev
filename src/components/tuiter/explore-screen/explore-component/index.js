@@ -10,14 +10,14 @@ const ExploreComponent = () => {
                                    <a href="explore-settings.html" className="ps-3 pt-1 pb-1"><i className="fas fa-cog fa-2x"></i></a>
            </div>
            <ul className="nav mb-2 mt-2 nav-tabs">
-                      <li className="nav-item"><a className="" href="#"><span className="nav-link active">For You</span></a></li>
-                                  <li className="nav-item"><a className="nav-link" href="#"><span className="wd-link-inactive">Trending</span></a></li>
-                                  <li className="nav-item"><a className="nav-link" href="#"><span className="wd-link-inactive">News</span></a></li>
-                                  <li className="nav-item"><a className="nav-link" href="#"><span className="wd-link-inactive">Sports</span></a></li>
-                                  <li className="nav-item"><a className="nav-link d-none d-md-block" href="#"><span className="wd-link-inactive">Entertainment</span></a></li>
+                      <li className="nav-item"><a className="" href="explore-for-you.html"><span className="nav-link active">For You</span></a></li>
+                                  <li className="nav-item"><a className="nav-link" href="explore-trending.html"><span className="wd-link-inactive">Trending</span></a></li>
+                                  <li className="nav-item"><a className="nav-link" href="explore-news.html"><span className="wd-link-inactive">News</span></a></li>
+                                  <li className="nav-item"><a className="nav-link" href="explore-sports.html"><span className="wd-link-inactive">Sports</span></a></li>
+                                  <li className="nav-item"><a className="nav-link d-none d-md-block" href="explore-entertainment.html"><span className="wd-link-inactive">Entertainment</span></a></li>
            </ul>
            <div className="card mt-2">
-                       <img className="card-img" src="../../../images/starship.jpg"/>
+                       <img className="card-img" alt="starship" src="../../../images/starship.jpg"/>
                        <div className="card-img-overlay d-flex align-items-end p-0 pb-1 m-1">
                            <h5 className="card-title text-white wd-card-title wd-strong m-0 p-0 ps-1">SpaceX's Starship</h5>
                        </div>

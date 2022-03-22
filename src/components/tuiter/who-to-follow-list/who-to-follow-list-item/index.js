@@ -16,7 +16,7 @@ const WhoToFollowListItem = (
                     <div className="col-6">
                         <div className="row align-items-center">
                             <div className="col-auto">
-                                <img className="img-fluid rounded-circle" width="50px" alt="profile-image" src={who.avatarIcon}/>
+                                <img className="img-fluid rounded-circle" width="50px" alt="profile" src={who.avatarIcon}/>
                             </div>
 
                             <div className="col-xxl-5 col-xl-4 col-lg-2 text-nowrap">

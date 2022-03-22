@@ -22,7 +22,7 @@ const PostSummaryListItem = (
                                     <div className="wd-bold">{post.title}</div>
                                 </div>
                                 <div className="col-2 align-self-center">
-                                    <img src={post.image} alt="post-image" className="img-fluid rounded-3"/>
+                                    <img src={post.image} alt="post" className="img-fluid rounded-3"/>
                                 </div>
                             </div>
                         </div>
