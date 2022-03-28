@@ -1,0 +1,175 @@
+
+
+.wd-common {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 15px;
+}
+
+.wd-search-bar {
+    border-radius: 9999px;
+    color: grey;
+    border: 1px solid rgb(32, 35, 39);
+}
+
+.wd-search-bar:focus-within {
+    border: 1px rgb(29,161,242) solid;
+    color: rgb(29,161,242);
+}
+
+.wd-search-field {
+    outline-style: none;
+}
+
+.wd-col {
+    display: flex;
+    flex-basis: auto;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wd-link {
+    color: rgb(29,161,242);
+    text-decoration: none;
+    border-radius: 9999px;
+    align-self: center;
+}
+
+.wd-trending-image {
+    width: 100px;
+    height: 100px;
+}
+
+.wd-verified {
+    color: white;
+    font-size: 14px;
+}
+.wd-black {
+    color: black;
+}
+
+.wd-blue {
+    color: rgb(29,161,242);
+}
+
+.wd-bold {
+    font-weight: bold;
+}
+
+.wd-strong {
+    font-weight: bolder;
+}
+
+.wd-card-title {
+    font-size: 30px;
+}
+
+.fa-stack.wd-stack {
+    font-size: 0.4em;
+}
+
+.wd-middle {
+    vertical-align: middle;
+}
+
+.btn-primary.wd-rounded-button {
+    border-radius: 9999px;
+}
+
+.wd-follow-img {
+    width: 50px;
+    height: auto;
+}
+
+.wd-medium {
+    font-size: 16px;
+}
+
+
+
+.wd-common {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 15px;
+}
+
+.wd-search-bar {
+    border-radius: 9999px;
+    color: grey;
+    border: 1px solid rgb(32, 35, 39);
+    background-color: white;
+}
+
+.wd-search-bar:focus-within {
+    border: 1px rgb(29,161,242) solid;
+    color: rgb(29,161,242);
+}
+
+.wd-search-field {
+    outline-style: none;
+}
+
+.wd-col {
+    display: flex;
+    flex-basis: auto;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wd-link {
+    color: rgb(29,161,242);
+    text-decoration: none;
+    border-radius: 9999px;
+    align-self: center;
+}
+
+.wd-trending-image {
+    width: 100px;
+    height: 100px;
+}
+
+.wd-verified {
+    color: white;
+    font-size: 14px;
+}
+.wd-black {
+    color: black;
+}
+
+.wd-blue {
+    color: rgb(29,161,242);
+}
+
+.wd-bold {
+    font-weight: bold;
+}
+
+.wd-strong {
+    font-weight: bolder;
+}
+
+.wd-card-title {
+    font-size: 30px;
+}
+
+.fa-stack.wd-stack {
+    font-size: 0.4em;
+}
+
+.wd-middle {
+    vertical-align: middle;
+}
+
+.btn-primary.wd-rounded-button {
+    border-radius: 9999px;
+}
+
+.wd-follow-img {
+    width: 50px;
+    height: auto;
+}
+
+.wd-medium {
+    font-size: 16px;
+}
+
