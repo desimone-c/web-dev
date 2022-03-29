@@ -14,9 +14,8 @@ function App() {
     <BrowserRouter>
       <div className="container">
         <Routes>
-          <Route path="/">
-            <Route path="labs"
-                   element={<Labs/>}/>
+          <Route index element={<Labs />} />
+          	<Route path="labs" exact={true} element={<Labs />}/>
             <Route path="hello"
                    element={<HelloWorld/>}/>
             <Route path="tuiter"
@@ -25,9 +24,7 @@ function App() {
                    element={<HomeScreen/>}/>
               <Route path="explore"
                    element={<ExploreScreen/>}/>
-              ...
             </Route>
-          </Route>
         </Routes>
       </div>
     </BrowserRouter>
