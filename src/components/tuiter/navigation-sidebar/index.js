@@ -1,7 +1,7 @@
 import React from "react";
-import {Link, Route, Routes}
+import {Link}
        from "react-router-dom";
-import {useDispatch, useSelector} from "react-redux";
+import {useSelector} from "react-redux";
 const NavigationSidebar = () => {
     const active = useSelector(state => state.active);
     return(

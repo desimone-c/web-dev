@@ -4,7 +4,7 @@ import ExploreComponent from "./explore-component";
 
 import React, {useEffect} from "react";
 
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 
 const ExploreScreen = () => {
 const dispatch = useDispatch();
