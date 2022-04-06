@@ -1,14 +1,19 @@
 import React, {useState} from "react";
 import {useDispatch}
        from "react-redux";
+import {
+    createTuit
+} from "../actions/tuits-actions";
+
 const WhatsHappening = () => {
  let [whatsHappening, setWhatsHappening]
-     = useState('');
+     = useState({ "postedBy": {
+         "username": "NASA"
+     }, tuit: ''});
  const dispatch = useDispatch();
+
  const tuitClickHandler = () => {
-   dispatch({type: 'create-tuit',
-     tuit: whatsHappening
-   });
+     createTuit(dispatch, whatsHappening)
  }
 
   return (
@@ -18,9 +23,9 @@ const WhatsHappening = () => {
         </div>
         <div className="d-flex flex-column m-2 w-100">
 
-      <textarea className="form-control wd-tuit-input" placeholder="What's happening?" value={whatsHappening}
+      <textarea className="form-control wd-tuit-input" placeholder="What's happening?" value={whatsHappening.tuit}
                onChange={(event) =>
-        setWhatsHappening(event.target.value)}>
+        setWhatsHappening({...whatsHappening, tuit: event.target.value})}>
       </textarea>
       <hr/>
       <div className="d-flex flex-row justify-content-between">
